@@ -1,0 +1,548 @@
+html{
+    overflow-x: hidden;
+}
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    align-items: center;
+
+    margin: auto;
+}
+
+header .logo {
+    width: 100%;
+    height: 100px;
+}
+
+header .logo img {
+    height: 100px;
+}
+
+header .nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+header .nav li a {
+    border-radius: 20px;
+    margin-right: 30px;
+    text-decoration: none;
+    border: 1px solid white;
+    color: white;
+    padding: 13px 30px;
+    background: transparent;
+    font-family: system-ui;
+    transition: 0.5s;
+}
+
+header .nav li a:hover {
+    margin-right: 30px;
+    text-decoration: none;
+    color: white;
+    padding: 13px 30px;
+    background: rgb(40, 189, 40);
+    transition: 1s;
+}
+header .nav .active{
+    background-color: #28bd28;
+}
+.heroBanner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(../images/andreas-gucklhorn-7razCd-RUGs-unsplash.jpg);
+    margin-top: -100px;
+    background-size: cover;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.heroBanner .container {
+    text-align: center;
+    color: white;
+
+}
+
+.heroBanner .container h1 {
+    padding: 0 30px;
+    font-family: system-ui;
+    font-weight: 700;
+    text-shadow: green 5px 0 20px;
+    font-size: 71px;
+}
+
+.heroBanner .container p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 100;
+    color: white;
+    font-family: system-ui;
+}
+
+.our-numbers {
+    text-align: center;
+
+    padding: 5% 22% 5%;
+}
+
+.our-numbers .container p {
+    margin-bottom: 50px;
+    font-family: system-ui;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(86, 103, 109);
+}
+
+.our-numbers .container h1 {
+    font-family: system-ui;
+    font-size: 100px;
+    font-weight: 800;
+    color: #343842;
+}
+
+.our-numbers .container .row {
+    display: flex;
+    justify-content: space-between;
+}
+.our-numbers .container .row .col ul{
+    padding: 0;
+    margin: 0;
+}
+.our-numbers .container .row .col ul li {
+    color: black;
+    text-transform: capitalize;
+    list-style: none;
+    font-family: system-ui;
+
+}
+
+.our-numbers .container .row .col ul li h3 {
+    font-family: system-ui;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+    text-align: left;
+}
+
+.our-numbers .container .row .col h1 {
+    color: rgb(173, 57, 57);
+    font-size: 100px;
+    margin: 0;
+    font-weight: 100;
+    font-family: system-ui;
+    text-align: left;
+}
+
+.our-numbers .container .row .col p {
+    font-family: system-ui;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(86, 103, 109);
+    text-align: left;
+}
+
+.About {
+    background-color: #f1f1f1;
+    padding: 50px 0;
+}
+
+.About .container {
+    padding: 0 30px;
+}
+
+.About .container .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+
+.About .container .row .col {
+    flex-basis: 50%;
+}
+
+.About .container .row .col {
+    width: 70%;
+    height: 70%;
+}
+
+.About .container .row .col img {
+    width: 90%;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.About h1 {
+    color: rgb(99, 221, 68);
+    font-family: system-ui;
+    font-size: 100px;
+    font-weight: 800;
+    margin-bottom: 0px;
+    margin-top: 0;
+}
+
+.About p {
+    color: rgb(86, 103, 109);
+    font-size: 30px;
+    margin: 0;
+    font-weight: 400;
+    font-family: system-ui;
+    margin-bottom: 50px;
+}
+
+.About a {
+    font-family: system-ui;
+    text-transform: capitalize;
+    background-color:  rgb(99, 221, 68);
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    transition: 1s;
+    border-radius: 20px;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 20px;
+}
+
+.About a:hover {
+    background-color: rgb(99, 221, 68);
+    color: white;
+    padding: 10px 85px;
+}
+
+.aboutus {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.aboutus .container h2 {
+    color: rgb(99, 221, 68);
+    font-family: system-ui;
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 0px;
+    margin-top: 0;
+}
+
+.aboutus .container p {
+    font-family: system-ui;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(86, 103, 109);
+    text-align: center;
+}
+.aboutus .container .row {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.aboutus .container .row .col {
+    flex-basis: 25%;
+}
+.aboutus .container .row .col .content p{
+    font-family: system-ui;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(86, 103, 109);
+    text-align: center;
+}
+.aboutus .container .row .col .content h4{
+    color: rgb(99, 221, 68);
+    font-family: system-ui;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 0px;
+
+}
+
+.aboutus .container .row .col .content .content-header {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.aboutus .container .row .col .content .content-header img {
+    width: 100%;
+}
+
+
+.projects {
+    background-image: url(../images/red-zeppelin-UVGE-o757-g-unsplash\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+
+.projects .container .content h1 {
+    margin: 20px;
+    font-family: system-ui;
+    color: #e1cece;
+    font-family: system-ui;
+    font-size: 100px;
+    font-weight: 800;
+}
+.projekte .projects:nth-child(2) .container .content h1 {
+    color: #e1cece;
+
+}
+.projekte .projects:nth-child(3) .container .content h1 {
+    color: #e1cece;
+    
+}
+.projects .container .content a {
+    font-family: system-ui;
+    text-transform: capitalize;
+    background-color:  rgb(99, 221, 68);
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    transition: 1s;
+    border-radius: 20px;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 20px;
+    margin-left: 20px;
+}
+.projekte .projects:nth-child(2) .container .content a {
+   background-color:  rgb(40, 87, 189);
+}
+.projekte .projects:nth-child(3) .container .content a {
+    background-color: #c5c5cd;
+ }
+ 
+
+.projects .container .content a:hover {
+    background-color: rgb(99, 221, 68);
+    color: white;
+    padding: 10px 85px;
+}
+
+.projects:last-child {
+    background-image: url(../images/zhang-fengsheng-gUKv_yrQ_tk-unsplash.jpg);
+    background-size: cover;
+}
+
+footer {
+    margin: 0;
+    padding: 5% 5% 0%;
+    background-color: rgb(1, 36, 175);
+}
+
+footer h1 {
+    font-size: 35px;
+    font-family: system-ui;
+    color: white;
+}
+footer h1:first-child {
+    font-size: 35px;
+    font-family: system-ui;
+    text-align: center;
+    color: white;
+}
+
+footer .container .row .col:nth-child(2) p {
+    font-family: system-ui;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+
+}
+
+footer .container .col iframe {
+    border-radius: 30px;
+}
+
+footer .container .outrow p {
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+footer .container .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .container .row .col ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer .container .row .col ul li {
+
+    margin: 25px 0 0;
+}
+
+footer .container .row .col ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    background-color: green;
+    padding: 10px 35px;
+    border-radius: 20px;
+    color: white;
+    font-family: system-ui;
+    font-weight: 400;
+    transition: 0.5s;
+}
+
+footer .container .row .col ul li:hover a {
+    background-color: rgb(0 153 255);
+    border-radius: 10px;
+    transition: 1s;
+}
+
+footer .container .row .col a i {
+    color: white;
+    font-size: 35px;
+}
+@media  screen and (max-width: 768px) {
+    header .nav {
+        display: block;
+        text-align: center;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    header .logo {
+        width: 23%;
+    }
+
+    header .nav li {
+        margin: 40px 0px;
+        display: flex;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+        background-color: rgb(98, 98, 250);
+        border-radius: 0 0 30px 30px;
+    }
+
+    header .nav {
+        flex-direction: column;
+    }
+
+    header .logo {
+        width: 180px;
+    }
+    .our-numbers .container .row .col ul li h3{
+        text-align: center;
+    }
+    .our-numbers .container .row .col h1{
+        text-align: center;
+    }
+    .our-numbers .container .row .col p{
+        text-align: center;
+    }
+    .our-numbers .container .row .col {
+        margin-bottom: 40px;
+        border-radius: 30px;
+        background-color: #efefef;
+        box-shadow: 0px 0px 20px -7px rgba(255,0,0,1);
+    }
+    .heroBanner{
+        position: relative;
+        margin-top: -25px;
+        z-index: -1;
+    }
+    .our-numbers .container .row{
+        flex-direction: column  ;
+    }
+    .our-numbers .container h1{
+        font-size: 60px;
+    }
+    .our-numbers .container .row .col ul {
+        padding: 0 ;
+    }
+    .About .container .row {
+        flex-direction: column;
+    }
+    .About .container .row .col img{
+        width: 100%;
+        height: 100%;
+    }
+    .About .container .row .col{
+        width: 100%;
+    }
+    .About h1{
+        text-align:center;
+        margin-bottom: 30px;
+    }
+    .About a{
+        display: flex;
+        justify-content: center;
+    }
+    .aboutus .container .row{
+        flex-direction: column;
+    }
+    .projects{
+        flex-direction: column;
+    justify-content: center;
+}
+.aboutus .container h2{
+    font-size: 60px;
+}
+.projects .container .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projects .container .content h1{
+    font-size: 65px;
+}
+.projects .container .content a{
+    padding: 15px 200px;        
+}
+footer .container .row{
+    flex-direction: column-reverse;
+}
+footer .container .row .col ul li a{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+footer .container .row .col .socials{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer h1{
+    text-align: center;
+}
+footer .container .row .col a i{
+
+    margin-top: 50px;
+font-size: 110px;
+    margin-bottom: 50px;
+}
+footer .container .col iframe{
+    width: 100%;
+    text-align: center;
+}
+footer p {
+text-align: center;
+}
+    }
